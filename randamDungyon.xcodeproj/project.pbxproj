@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1E07948F1D10C5A90038AD5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E07948E1D10C5A90038AD5D /* AppDelegate.swift */; };
-		1E0794911D10C5A90038AD5D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1E0794901D10C5A90038AD5D /* GameScene.sks */; };
-		1E0794931D10C5A90038AD5D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0794921D10C5A90038AD5D /* GameScene.swift */; };
 		1E0794951D10C5A90038AD5D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0794941D10C5A90038AD5D /* GameViewController.swift */; };
 		1E0794981D10C5A90038AD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0794961D10C5A90038AD5D /* Main.storyboard */; };
 		1E07949A1D10C5A90038AD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0794991D10C5A90038AD5D /* Assets.xcassets */; };
 		1E07949D1D10C5A90038AD5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E07949B1D10C5A90038AD5D /* LaunchScreen.storyboard */; };
 		1E0794A81D10C5A90038AD5D /* randamDungyonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0794A71D10C5A90038AD5D /* randamDungyonTests.swift */; };
 		1E0794B31D10C5A90038AD5D /* randamDungyonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0794B21D10C5A90038AD5D /* randamDungyonUITests.swift */; };
+		1E0794C11D10C5B30038AD5D /* TileTestScean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0794C01D10C5B30038AD5D /* TileTestScean.swift */; };
+		1E0794C31D11298F0038AD5D /* DelaunayTriangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0794C21D11298F0038AD5D /* DelaunayTriangles.swift */; };
+		1E2EDED11D1CA6E900DA499A /* supaningTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EDED01D1CA6E900DA499A /* supaningTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,6 @@
 /* Begin PBXFileReference section */
 		1E07948B1D10C5A80038AD5D /* randamDungyon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randamDungyon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E07948E1D10C5A90038AD5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E0794901D10C5A90038AD5D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		1E0794921D10C5A90038AD5D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		1E0794941D10C5A90038AD5D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1E0794971D10C5A90038AD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E0794991D10C5A90038AD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +50,9 @@
 		1E0794AE1D10C5A90038AD5D /* randamDungyonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = randamDungyonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0794B21D10C5A90038AD5D /* randamDungyonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randamDungyonUITests.swift; sourceTree = "<group>"; };
 		1E0794B41D10C5A90038AD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0794C01D10C5B30038AD5D /* TileTestScean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileTestScean.swift; sourceTree = "<group>"; };
+		1E0794C21D11298F0038AD5D /* DelaunayTriangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelaunayTriangles.swift; sourceTree = "<group>"; };
+		1E2EDED01D1CA6E900DA499A /* supaningTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = supaningTree.swift; path = randamDungyon/supaningTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,9 @@
 				1E0794A61D10C5A90038AD5D /* randamDungyonTests */,
 				1E0794B11D10C5A90038AD5D /* randamDungyonUITests */,
 				1E07948C1D10C5A80038AD5D /* Products */,
+				1E0794C01D10C5B30038AD5D /* TileTestScean.swift */,
+				1E0794C21D11298F0038AD5D /* DelaunayTriangles.swift */,
+				1E2EDED01D1CA6E900DA499A /* supaningTree.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				1E07948E1D10C5A90038AD5D /* AppDelegate.swift */,
-				1E0794901D10C5A90038AD5D /* GameScene.sks */,
-				1E0794921D10C5A90038AD5D /* GameScene.swift */,
 				1E0794941D10C5A90038AD5D /* GameViewController.swift */,
 				1E0794961D10C5A90038AD5D /* Main.storyboard */,
 				1E0794991D10C5A90038AD5D /* Assets.xcassets */,
@@ -238,7 +241,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0794911D10C5A90038AD5D /* GameScene.sks in Resources */,
 				1E07949D1D10C5A90038AD5D /* LaunchScreen.storyboard in Resources */,
 				1E07949A1D10C5A90038AD5D /* Assets.xcassets in Resources */,
 				1E0794981D10C5A90038AD5D /* Main.storyboard in Resources */,
@@ -266,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0794931D10C5A90038AD5D /* GameScene.swift in Sources */,
 				1E0794951D10C5A90038AD5D /* GameViewController.swift in Sources */,
+				1E0794C11D10C5B30038AD5D /* TileTestScean.swift in Sources */,
+				1E0794C31D11298F0038AD5D /* DelaunayTriangles.swift in Sources */,
+				1E2EDED11D1CA6E900DA499A /* supaningTree.swift in Sources */,
 				1E07948F1D10C5A90038AD5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,6 +501,7 @@
 				1E0794B91D10C5A90038AD5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E0794BA1D10C5A90038AD5D /* Build configuration list for PBXNativeTarget "randamDungyonTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +510,7 @@
 				1E0794BC1D10C5A90038AD5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E0794BD1D10C5A90038AD5D /* Build configuration list for PBXNativeTarget "randamDungyonUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				1E0794BF1D10C5A90038AD5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
